@@ -2,9 +2,36 @@ body {
   background: #fff;
   font-family: "Roboto", sans-serif;
   color: #434455;
+  margin: 0;
+  width: 1440px;
+  height: 3300px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  list-style: none;
+  margin: 0;
 }
 a {
   text-decoration: none;
+}
+.header-logo {
+  width: 1440px;
+  height: 72px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  width: 115px;
+  height: 24px;
 }
 .web-logo {
   font-family: "Raleway", sans-serif;
@@ -105,9 +132,7 @@ a {
 .team-foto {
   background: #ffffff;
 }
-ul {
-  list-style-type: none;
-}
+
 .name {
   font-weight: 500;
   font-size: 20px;
