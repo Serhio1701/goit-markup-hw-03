@@ -163,9 +163,6 @@ a {
 .feartures-list {
   margin-right: 24px;
 }
-.feartures-list-end {
-  margin-right: 0px;
-}
 .head {
   margin-bottom: 8px;
   font-weight: 500;
@@ -206,9 +203,6 @@ a {
   background: #ffffff;
   border-radius: 0 0 4px 4px;
   margin-right: 24px;
-}
-.team-foto-end {
-  margin-right: 0px;
 }
 .object {
   padding: 32px 0px;
@@ -257,10 +251,10 @@ a {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-head {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
