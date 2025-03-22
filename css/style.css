@@ -10,8 +10,8 @@ body {
   padding: 0px 15px;
   margin: 0px auto;
 }
-section {
-  padding: 120px 0px;
+.section {
+  padding: 188px 0px;
 }
 h1,
 h2,
@@ -108,7 +108,7 @@ a {
   background: #2e2f42;
 }
 .slogan {
-  width: 496px;
+  max-width: 496px;
   margin: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -122,7 +122,7 @@ a {
 .button {
   display: block;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin-left: auto;
   margin-right: auto;
@@ -133,12 +133,15 @@ a {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  border: none;
 }
 .button:hover,
 .button:focus {
   background-color: #404bbf;
 }
-
+.feartures-section {
+  padding: 120px 0px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -156,7 +159,12 @@ a {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  column-gap: 24px;
+}
+.feartures-list {
+  margin-right: 24px;
+}
+.feartures-list-end {
+  margin-right: 0px;
 }
 .head {
   margin-bottom: 8px;
@@ -176,14 +184,13 @@ a {
 }
 .section-team {
   background: #f4f4fd;
+  padding: 120px 0px;
 }
 .container-team {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 8px;
-  column-gap: 24px;
 }
 .team {
   margin: 72px;
@@ -198,10 +205,15 @@ a {
 .team-foto {
   background: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+  margin-right: 24px;
+}
+.team-foto-end {
+  margin-right: 0px;
+}
+.object {
+  padding: 32px 0px;
 }
 .name {
-  margin-top: 32px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -219,13 +231,11 @@ a {
   text-align: center;
   color: #434455;
 }
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+.portfolio-section {
+  padding: 120px 0px;
 }
 .portfolio {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -234,6 +244,22 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
 }
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-object {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 .portfolio-head {
   font-weight: 500;
   font-size: 20px;
@@ -250,16 +276,17 @@ a {
 }
 .footer {
   background: #2e2f42;
+  padding: 100px 0px;
 }
 .container-footer {
-  padding: 100px 15px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
 }
-.header-logo {
-  padding: 16px 0px;
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .studio-logo {
   font-weight: 700;
