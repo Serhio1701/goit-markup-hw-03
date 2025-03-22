@@ -206,7 +206,6 @@ a {
 .team-foto {
   background: #ffffff;
   border-radius: 0 0 4px 4px;
-  margin-right: 24px;
 }
 .object {
   padding: 32px 0px;
@@ -245,11 +244,10 @@ a {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  width: calc((100% - 72px) / 4);
+  column-gap: 24px;
+  row-gap: 48px;
 }
-.portfolio-item {
-  margin-right: 24px;
-}
+
 .portfolio-object {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
