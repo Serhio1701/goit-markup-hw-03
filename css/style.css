@@ -201,7 +201,7 @@ a {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  column-gap: 24px;
+  gap: 24px;
 }
 .team-foto {
   background: #ffffff;
@@ -244,8 +244,7 @@ a {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 48px 24px;
 }
 
 .portfolio-object {
