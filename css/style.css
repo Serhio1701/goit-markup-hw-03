@@ -271,12 +271,6 @@ a {
   background: #2e2f42;
   padding: 100px 0px;
 }
-.container-footer {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
